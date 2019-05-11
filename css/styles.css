@@ -1,0 +1,61 @@
+/* defaults */
+
+@font-face {font-family: 'handwriting'; src: url('../fonts/handwriting.ttf') format('truetype'),}
+
+.background_img {
+	background-size: cover;
+	background-attachment: local;
+}
+
+body {
+	font-family: 'handwriting', cursive;
+	overflow-x: hidden; 
+	font-family: 'Playfair Display SC', cursive;
+	color: #eee;
+	background-image: url(../img/graph-background.jpg);
+	background-repeat: repeat-y;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+}
+
+/* end of defaults */
+
+::grammar-error {
+	color: green;
+}
+
+.wrap {
+	height: 100vh;
+}
+
+aside {
+	position: absolute;
+	width: 150px;
+	border: 1px solid;
+}
+
+.aside-inner {
+	position: flex;
+	align-content: center;
+	flex-direction: column;
+	margin-top: 10px;
+	height: auto;
+	border: 1px solid #000;
+}
+
+/* #contact stuff */
+
+.contact_bottom {
+	border: 1px solid transparent;
+	border-radius: 25px;
+	background-image: url(../img/wildtextures-grey-felt-texture.jpg);
+	background-size: cover;
+	background-attachment: local;
+	background-repeat: no-repeat;
+}
