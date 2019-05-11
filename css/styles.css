@@ -2,18 +2,30 @@
 
 @font-face {font-family: 'handwriting'; src: url('../fonts/handwriting.ttf') format('truetype'),}
 
-.background_img {
+.bk_img {
 	background-size: cover;
 	background-attachment: local;
 }
 
+.bk_img1 {
+	background-image: url(../img/blue-suede.jpg);
+}
+
+.blur {
+	filter: blur(1px);
+}
+
+.invert {
+	filter: invert(100%)
+}
+
 body {
 	font-family: 'handwriting', cursive;
-	overflow-x: hidden; 
-	font-family: 'Playfair Display SC', cursive;
-	color: #eee;
+	overflow-x: hidden;
 	background-image: url(../img/graph-background.jpg);
 	background-repeat: repeat-y;
+	color: #eee;
+	
 }
 
 a, a:hover {
@@ -24,38 +36,73 @@ a:hover {
 	color: green;
 }
 
+li {
+	list-style-type: none;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
 /* end of defaults */
 
 ::grammar-error {
 	color: green;
 }
 
+.wrap_x {
+	width: 100vw;
+	background-image: url();
+}
+
+.wrap_x:nth-child(1) {
+	background-image: url('../img/My genealogy.png');
+}
+
+.wrap_x:nth-child(2) {
+	background-image: url('../img/Restaurante.png');
+	color: #000;
+}
+
+.wrap_x:nth-child(3) {
+	background-image: url('../img/Restaurante.png');
+	color: #000;
+}
+
 .wrap {
 	height: 100vh;
+	margin-left: 144px;
 }
 
 aside {
-	position: absolute;
-	width: 150px;
-	border: 1px solid;
+	position: sticky;
+	top: 10px;
+	left: 0;
+	width: 144px;
 }
 
 .aside-inner {
-	position: flex;
+	display: flex;
 	align-content: center;
 	flex-direction: column;
-	margin-top: 10px;
 	height: auto;
-	border: 1px solid #000;
+
+}
+
+/* #home stuff and  kitty can */
+
+#home {
+	display: flex;
 }
 
 /* #contact stuff */
 
 .contact_bottom {
-	border: 1px solid transparent;
-	border-radius: 25px;
-	background-image: url(../img/wildtextures-grey-felt-texture.jpg);
-	background-size: cover;
-	background-attachment: local;
+	background-image: url(../img/psychedelic.jpg);
 	background-repeat: no-repeat;
+}
+
+.requiredStar {
+	color: #639;
+	content: '*';
 }

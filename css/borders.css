@@ -1,0 +1,36 @@
+
+.trans_border {
+	border: 1px solid transparent;
+}
+
+.blck_border {
+	border: 1px solid black;
+}
+
+.whte_border {
+	border: 1px solid antiquewhite;
+}
+
+.gry_border {
+    border: 1px solid grey;
+}
+
+.rounded_1{border-radius: 1px;}
+.rounded_2{border-radius: 2px;}
+.rounded_3{border-radius: 3px;}
+.rounded_4{border-radius: 4px;}
+.rounded_5{border-radius: 5px;}
+.rounded_6{border-radius: 6px;}
+.rounded_7{border-radius: 7px;}
+.rounded_8{border-radius: 8px;}
+.rounded_9{border-radius: 9px;}
+.rounded_10{border-radius: 10px;}
+.rounded_12{border-radius: 12px;}
+.rounded_15{border-radius: 15px;}
+.rounded_17{border-radius: 17px;}
+.rounded_20{border-radius: 20px;}
+.rounded_25{border-radius: 25px;}
+.rounded_30{border-radius: 30px;}
+.rounded_40{border-radius: 40px;}
+.rounded_55{border-radius: 55px;}
+.rounded_75{border-radius: 75px;}
